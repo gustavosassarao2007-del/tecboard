@@ -78,19 +78,25 @@ section img{
   p {
     width: 648px;
   }
+  h1{
+    font-size: 50px;
+  }
+
 }
 
 @media(max-width: 375px){
   header img {
-    margin: 32px 0 0 16px;
+    display: block;
+    margin: 32px auto 0 auto;
   }
   
   h1 {
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
   }
   
   p {
-    font-size: 10px;
+    font-size: 20px;
     width: 341px;
   }
   
@@ -100,7 +106,7 @@ section img{
   }
   
   section img {
-    width: 380px;
+    width: 350px;
     height: 230px;
   }
 }
